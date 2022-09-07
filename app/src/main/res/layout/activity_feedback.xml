@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FeedbackActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="@string/what_can_we_do" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp">
+
+        <EditText
+            android:id="@+id/etFeedback"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textSize="16sp"
+            tools:text="bla bla" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/tvSendFeedback"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_send"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+</LinearLayout>

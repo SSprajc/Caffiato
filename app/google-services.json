@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "205203260252",
+    "project_id": "idemoukafic",
+    "storage_bucket": "idemoukafic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205203260252:android:ec62c04b32077517767799",
+        "android_client_info": {
+          "package_name": "hr.algebra.caffiato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205203260252-vvt5edau9sakqt116uj1t055ggo4g579.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.algebra.caffiato",
+            "certificate_hash": "4f341ca7f341f3fa03b1a6b246515e5f1ae44c26"
+          }
+        },
+        {
+          "client_id": "205203260252-nod6ugbbv22n42ib69l94pe550qb04rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAyBMaQZX7OeEWdkEkaqfEjzyRiI11I2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205203260252-nod6ugbbv22n42ib69l94pe550qb04rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

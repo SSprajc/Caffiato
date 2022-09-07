@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragments"
+    app:startDestination="@id/menuMore">
+
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="hr.algebra.caffiato.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuMore"
+        android:name="hr.algebra.caffiato.MoreFragment"
+        android:label="More"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/menuLocation"
+        android:name="hr.algebra.caffiato.LocationFragment"
+        android:label="Locations"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/menuScan"
+        android:name="hr.algebra.caffiato.ScannerFragment"
+        android:label="Scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+</navigation>
